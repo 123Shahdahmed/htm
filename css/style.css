@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(../imgs/pexels-gochrisgoxyz-1477166.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.imge{
+    position: relative;
+}
+.imge {
+    position: relative;
+    width: 300px;
+    height: 390px;
+    overflow: hidden; }
+.none {
+    width: 100%;
+    height: 100%;
+    border-radius: 23px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    transition: bottom 1s  0.3s ease-in-out;   
+}
+.imge:hover .none {
+    bottom: 0; 
+    cursor: pointer;
+}
+.main{
+    width: 80%;
+    margin: 50px auto ;
+    padding: 10px;
+    text-align: center;
+}
+div img{
+    width: 300px;
+    overflow: hidden; 
+}
+.one, .two, .three {
+    float: left; 
+    text-align: center;
+    margin: 3rem;
+}
+h5{
+    color: aliceblue;
+}
+.clear-fix{
+    clear: both;
+}
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(79, 137, 203);
+    color: white;
+    border: none;
+    transition: all 0.6s 0.4s;
+    -webkit-transition: all 0.6s 0.4s;
+    -moz-transition: all 0.6s 0.4s;
+    -ms-transition: all 0.6s 0.4s;
+    -o-transition: all 0.6s 0.4s;
+}
+button:hover{
+    background-color: rgba(127, 255, 182, 0.9);
+    cursor: pointer;
+}
+.price div{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.price div h5{
+    float: left;
+    margin: 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+}
